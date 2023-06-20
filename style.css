@@ -125,18 +125,43 @@ header {
   font-size: 1.7rem;
   color: black;
 }
+/* LARGE SECTION STYLE */
 .big-bg {
   width: 100%;
-  height: 900px;
-  background-color: gray;
-  justify-content: center;
+  height: 1000px;
+  /* background-color: gray; */
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+.big-txt {
+  align-self: flex-start;
+  text-align: center;
+  font-size: 1.7rem;
 }
 .big-content {
   width: 80%;
   height: 70%;
-  background-color: green;
-  border: 2px dashed black;
+  background-image: url(./img/item4-big.svg);
+  background-size: cover;
+}
+.star-txt {
+  height: 50px;
+  background-image: url(./img/stars.svg);
+  background-size: auto;
+  background-repeat: repeat;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.star-txt .dwl-mac {
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: dodgerblue;
+  border-radius: 30px;
+  color: white;
 }
 .last-section {
   width: 100%;
