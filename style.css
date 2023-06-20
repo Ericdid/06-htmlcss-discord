@@ -129,7 +129,6 @@ header {
 .big-bg {
   width: 100%;
   height: 1000px;
-  /* background-color: gray; */
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -159,34 +158,65 @@ header {
   text-align: center;
   margin-top: 20px;
   padding: 15px;
-  background-color: dodgerblue;
+  background-color: rgb(88, 101, 242);
   border-radius: 30px;
   color: white;
 }
+/* LAST SECTION STYLE */
 .last-section {
   width: 100%;
   height: 500px;
-  background-color: darkblue;
+  background-color: rgb(28, 28, 29);
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(88, 101, 242);
 }
+/* left space */
 .left-space {
   width: 30%;
   height: 90%;
-  background-color: palevioletred;
-  border: 2px dashed black;
+  flex-direction: column;
 }
+.left-space h1 {
+  color: rgb(88, 101, 242);
+  font-size: 2rem;
+  padding: 15px;
+}
+.left-space img {
+  width: 30px;
+  margin-left: 15px;
+}
+.language {
+  width: 15%;
+  background: none;
+  border: none;
+  color: white;
+}
+.brand-logos {
+  margin: 15px 15px;
+  font-size: 25px;
+  color: white;
+}
+.brand-logos i {
+  margin: 10px 15px;
+}
+/* right space */
 .right-space {
   width: 50%;
   height: 90%;
-  background-color: aqua;
-  border: 2px dashed black;
 }
 .blank {
   width: 25%;
   height: 100%;
-  border: 2px dashed white;
+}
+.blank h2 {
+  color: rgb(88, 101, 242);
+  padding: 15px;
+}
+.blank li {
+  list-style-type: none;
+  color: white;
+  padding: 15px;
 }
 footer {
   width: 100%;
