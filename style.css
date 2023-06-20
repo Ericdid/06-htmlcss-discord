@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+/* HEADER STYLE */
 header {
   width: 100%;
   height: 70px;
@@ -51,6 +52,7 @@ header {
   background-color: white;
   color: black;
 }
+/* JUMBO STYLE */
 .bg-img {
   background-image: url(./img/jumbo.png);
   background-size: cover;
@@ -85,6 +87,9 @@ header {
   border-radius: 30px;
   color: white;
 }
+
+/* SMALL SECTION STYLE */
+
 .bg-white {
   width: 100%;
   height: 500px;
@@ -93,7 +98,6 @@ header {
   align-items: center;
 }
 
-/* SECTION IMAGES AND TXT */
 .image-space-one {
   background-image: url(./img/item1.svg);
   background-size: contain;
